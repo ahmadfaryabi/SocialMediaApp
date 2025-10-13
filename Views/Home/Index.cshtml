@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sosiale Medier App</h1>
+    <p>Velkommen til en verden fylt med inspirasjon og meninger</p>
+    <p>Vil du også være en del av oss? </p>
+    <p> <button><a>Registerer deg hos oss gratis</a></button> </p>
+    @foreach (var post in Model){
+        <div>
+            <h3>@post.description</h3>
+            <p>@post.location</p>
+            <div>
+                @foreach (var img in post.images){
+                    <img src="@img" alt="Post Image" style="max-width:200px; max-height:200px; margin:5px;" />
+                }
+            </div>
+            <p>Username: @post.User.Username</p>
+            <p>Hashtags: 
+                @if (post.hashtags != null){
+                    foreach (var tag in post.hashtags){
+                        <span>@tag </span>
+                    }
+                } else {
+                    <span>Ingen Hashtags</span>
+                }
+            <p></p>
+        </div>
+    }
+</div>
