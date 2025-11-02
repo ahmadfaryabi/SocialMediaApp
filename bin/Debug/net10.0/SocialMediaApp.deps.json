@@ -10,7 +10,8 @@
         "dependencies": {
           "Aspire.Hosting.PostgreSQL": "9.5.1",
           "Microsoft.EntityFrameworkCore": "9.0.9",
-          "Npgsql": "9.0.3"
+          "Npgsql": "9.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
         "runtime": {
           "SocialMediaApp.dll": {}
@@ -298,6 +299,17 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational/9.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.124.61002"
+          }
+        }
+      },
       "Microsoft.NET.StringTools/17.6.3": {
         "runtime": {
           "lib/net7.0/Microsoft.NET.StringTools.dll": {
@@ -432,6 +444,19 @@
           "lib/net8.0/Npgsql.dll": {
             "assemblyVersion": "9.0.3.0",
             "fileVersion": "9.0.3.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.1",
+          "Npgsql": "9.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.4.0"
           }
         }
       },
@@ -685,6 +710,13 @@
       "path": "microsoft.entityframeworkcore.abstractions/9.0.9",
       "hashPath": "microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Relational/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Iu0h4oevRvH4IwPzmxuIJGYRt55TapoREGlluk75KCO7lenN0+QnzCl6cQDY48uDoxAUpJbpK2xW7o8Ix69dw==",
+      "path": "microsoft.entityframeworkcore.relational/9.0.1",
+      "hashPath": "microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512"
+    },
     "Microsoft.NET.StringTools/17.6.3": {
       "type": "package",
       "serviceable": true,
@@ -726,6 +758,13 @@
       "sha512": "sha512-tPvY61CxOAWxNsKLEBg+oR646X4Bc8UmyQ/tJszL/7mEmIXQnnBhVJZrZEEUv0Bstu0mEsHZD5At3EO8zQRAYw==",
       "path": "npgsql/9.0.3",
       "hashPath": "npgsql.9.0.3.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mw5vcY2IEc7L+IeGrxpp/J5OSnCcjkjAgJYCm/eD52wpZze8zsSifdqV7zXslSMmfJG2iIUGZyo3KuDtEFKwMQ==",
+      "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
     },
     "Polly.Core/8.6.3": {
       "type": "package",

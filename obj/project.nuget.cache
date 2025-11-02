@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkppfY0fA1Y=",
+  "dgSpecHash": "ae9o9+0IF+4=",
   "success": true,
   "projectFilePath": "/Users/ahmadfaryabi/Documents/Prosjekter/SocialMediaApp/SocialMediaApp.csproj",
   "expectedPackageFiles": [
@@ -28,12 +28,14 @@
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore/9.0.9/microsoft.entityframeworkcore.9.0.9.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.9/microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.9/microsoft.entityframeworkcore.analyzers.9.0.9.nupkg.sha512",
+    "/Users/ahmadfaryabi/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.1/microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.net.stringtools/17.6.3/microsoft.net.stringtools.17.6.3.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.visualstudio.threading.only/17.13.61/microsoft.visualstudio.threading.only.17.13.61.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/microsoft.visualstudio.validation/17.8.8/microsoft.visualstudio.validation.17.8.8.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/nerdbank.streams/2.12.87/nerdbank.streams.2.12.87.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
+    "/Users/ahmadfaryabi/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.4/npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/polly.core/8.6.3/polly.core.8.6.3.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/semver/3.0.0/semver.3.0.0.nupkg.sha512",
     "/Users/ahmadfaryabi/.nuget/packages/streamjsonrpc/2.22.11/streamjsonrpc.2.22.11.nupkg.sha512",
